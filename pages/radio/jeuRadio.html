@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="/resources/logo/logoBSPP.png">
+	<link rel="stylesheet" type="text/css" href="/style/main.css">
+	<link rel="stylesheet" type="text/css" href="/style/La_Radio.css">
+	<title>Jeu Radio</title>
+</head>
+<body>
+<header class="container">
+	<a href="/pages/chicAlaJone.html"> <img id="logoX" src="/resources/logo/logoX.png"></a>
+	<div class='title'><h1 onclick='home()'>Jeu Radio</h1></div>
+	<a href="https://portail.pompiersparis.fr/"> <img id="logoX" src="/resources/logo/logoBSPP.png"></a>
+</header>
+
+<nav class="container" id="tabContainer">
+	<button class="tabButton" type="button" onclick="tab(event)" name="BSP">BSP</button>
+	<button class="tabButton" type="button" onclick="tab(event)" name="Fiches ReteX">Fiches ReteX</button>
+	<button class="tabButton" type="button" onclick="tab(event)" name="La Caserne">La Caserne</button>
+	<button class="tabButton" type="button" onclick="tab(event)" name="La Radio">La Radio</button>
+</nav>
+
+<div class="gameContent">
+	<p>Le but : t’entraîner à Créér tes messages. On te présente une situation, et tu dois déplacer des étiquettes aux bons endroits pour former le bon message. On te propose une correction et des petites explications.</p>
+	<nav class="container" id="radioTabContainer">
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="police">Police</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="med">Equipe médicale</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="acr">ACR</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="avp">AVP</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="mea">Demande de MEA</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="co">Intoxication au CO</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="defenestre">Défenestré</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="attentat">Attentat</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="remplacement">Remplacement</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="sp_enfant">Impliquant un SP ou un enfant</button>
+		<button class="radioTabButton" type="button" onclick="radioButton(event)" name="divers">Services de Voirie</button>
+	</nav>
+</div>
+
+<footer>
+	<p id='contact' onclick='sendMail()'>Envie de contribuer à ReteX ?<br>Contacte-nous ! </p>
+	<button id='homebutton' class='tabButton' onclick="home()">Retourner à la page d'accueil</button>
+	<p id='signature' onclick='chicAlaJone()'> Créé par les X21 BSPP </p>
+</footer>
+
+</body>
+<script src="/scripts/main.js" charset="utf-8"></script>
+<script src="/scripts/la_Radio.js" charset="utf-8"></script>
+</html>
