@@ -1,0 +1,162 @@
+:root {
+    --main-bg-color: #CACACA;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgb(140, 140, 140);
+}
+body{
+	display: none ;
+	flex-direction: column;
+	font-family: Tiempos,Georgia,serif;
+	color : black ;
+	margin : 0em ;
+	text-align: justify;
+	background-color: white ;
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	overflow: auto;
+	background-color: var(--main-bg-color) ;
+    overflow-x: hidden;
+}
+
+header{
+	background: linear-gradient(0deg, var(--main-bg-color) 10%,  #F1FF1A) ;
+	height: auto ;
+	top : 0 ;
+}
+nav{
+	background-color: var(--main-bg-color);
+	top : 0px ;
+}
+img{
+	float : top;
+	width : 10vw;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 5vw;
+	font-family : Impact, sans-serif ;
+	cursor: pointer;
+}
+.title {
+	background: url(../resources/images/metal.jpg) no-repeat center center;
+	background-size: cover;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    width: 30vw;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	margin-bottom: 0vh;
+}
+#tabContainer{
+	height: 10vh;
+}
+button{
+	position: relative;
+	width: 20%;
+	height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    background: linear-gradient(45deg, rgb(255, 0, 0), rgb(170, 0, 0));
+    box-shadow: black 3px -3px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+	font-family: Impact, sans-serif;
+	font-size: 1.3em ;
+}
+button:hover {
+    box-shadow: none;
+    transform: translate3d(3px,-3px,0);
+    transition-delay: 0;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: line;
+}
+button:active {
+    background: linear-gradient(45deg, rgb(170, 0, 0), rgb(255, 0, 0));
+}
+#presentation{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	height : auto ;
+	align-items: center;
+
+}
+#presentation figure{
+    margin-top: 10vh;
+}
+#presentation figure #casque{
+	width: 55vw ;
+}
+#presentation p{
+	width : 55% ;
+    margin-top: 5%;
+	margin-right : 5%;
+	font-family: Impact, sans-serif;
+}
+#X21Presentation figure{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#X21Presentation figure #carteX21{
+    width: 45vw;
+}
+footer{
+    position: relative;
+	display: flex ;
+	align-items: center;
+	justify-content: space-around;
+	bottom: 0px;
+	width: 100% ;
+	height : 40px ;
+    margin-top: 10vh;
+	background : linear-gradient( 0deg, #F1FF1A, var(--main-bg-color) ) ;
+	font-size: 0.8em ;
+}
+#homebutton {
+	width: auto;
+    height: auto;
+    padding: 6px;
+    font-size: 1em;
+}
+footer #contact{
+	cursor: pointer;
+}
+footer #location{
+	text-align: center;
+    display: none;
+}
+footer #locationButton{
+    width: auto;
+	height: auto;
+    padding: 6px;
+    font-family: Impact, sans-serif;
+    font-size: 1em ;
+}
+footer #signature{
+	text-align: end;
+    cursor: pointer;
+}

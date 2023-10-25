@@ -1,0 +1,86 @@
+img{
+	float : top;
+	width : 10vw;
+	cursor: pointer;
+}
+
+h1{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 5vw;
+	font-family : Impact, sans-serif ;
+	cursor: pointer;
+}
+ h2 {
+	 text-align: center;
+	 color: #242300;
+	 font-weight: bold;
+	 font-style: italic;
+	 font-size: 2vw;
+	 font-family : Impact, sans-serif ;
+	 cursor: pointer;
+	 text-decoration: underline;
+	 text-decoration-color: #ebdf00 ;
+	 width : 80% ;
+	 margin : 2% 0% 0% 2%  ;
+ }
+h3{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+section{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	height : auto ;
+	align-items: center;
+
+}
+#pdf{
+	width: auto;
+	height: 4em;
+}
+p{
+	width : 90% ;
+}
+.fiche_caserne {
+	font-family: Candara, sans-serif;
+	font-weight: bold;
+	display : flex ;
+	flex-direction: row ;
+	width : 100% ;
+	height : auto ;
+	margin-bottom: 5vh;
+}
+#sitesBody .fiche_caserne{
+	margin-top: 5vh;
+	width: 70vw;
+}
+.photo_fiche {
+	width: auto ;
+	height: 25em ;
+}
+#moyens{
+	height: 17em;
+}
+.texte_fiche {
+	display : flex ;
+	flex-direction: column;
+	height : auto ;
+	border-style: solid ;
+	padding : 1em ;
+	margin : 2% 0% 0% 2% ;
+	background-color: #ff000d ;
+}
+figure{
+	margin-top: 10vh;
+}
+ol li {
+	margin : 0 15px 15px 0 ;
+}
+a{
+	color: black
+}
