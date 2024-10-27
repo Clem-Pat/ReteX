@@ -13,8 +13,8 @@ function tab(event) {
 	}
 	else {
 		console.log(event.target, event.target["name"]);
-		if (String(event.target.name) != 'undefined') {window.location.assign(`/pages/${event.target.name}.html`)}
-		else {window.location.assign(`/pages/${event.target.getAttribute('name')}.html`)}
+		if (String(event.target.name) != 'undefined') {window.location.assign(`/ReteX/pages/${event.target.name}.html`)}
+		else {window.location.assign(`/ReteX/pages/${event.target.getAttribute('name')}.html`)}
 	}
 }
 
@@ -31,7 +31,7 @@ function home(){
 		}
 	}
 	else{
-		window.location.assign(`/main.html`)
+		window.location.assign(`/ReteX/main.html`)
 	}
 }
 
