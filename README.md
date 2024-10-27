@@ -9,7 +9,7 @@ Noter que les ressources appartiennent à la BSPP et peuvent être obsolètes.
 
 https://clem-pat.github.io/ReteX/
 
-<img src="/resources/logo/logoBSPP.png" alt="Image 1" width="150"/> <img src="/resources/logo/logoX_blanc.png" alt="Image 1" width="150"/>
+<img src="/resources/logo/logoBSPP.png" alt="Image 1" width="150"/> <img src="/resources/logo/logoX.png" alt="Image 1" width="150"/>
 
 ## Authors
 
