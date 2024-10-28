@@ -13,5 +13,5 @@ https://clem-pat.github.io/ReteX/
 
 ## Authors
 
-- [@Clem-Pat](https://www.github.com/Clem-Pat) (contact : clement.patrizio@outlook.fr)
-
+- LTN Clément Patrizio [@Clem-Pat](https://www.github.com/Clem-Pat) (contact : clement.patrizio@outlook.fr)
+- LTN Alexis Porcel    [@alexisporcel](https://github.com/alexisporcel)
