@@ -42,7 +42,8 @@ function textOnclick(event){
 	var pageName = page.slice(0,-5)
 	var list = pdfFilesDict[pageName]
 	if (pageName != 'BSP') { window.open('../../resources/pdf/Retex/' + pageName + '/' + list[event.target.id],'_blank') }
-	else { window.open('../resources/pdf/BSP/' + list[event.target.id],'_blank') }
+	//else { window.open('../resources/pdf/BSP/' + list[event.target.id],'_blank') }
+	else { window.open('https://retex.s3.ap-southeast-2.amazonaws.com/pdf/BSP/BSP-115.1-Engagement+des+secours.pdf','_blank') }
 }
 
 function tabsHover(event){
