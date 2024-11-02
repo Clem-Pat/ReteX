@@ -9,8 +9,11 @@ Noter que les ressources appartiennent à la BSPP et peuvent être obsolètes.
 
 https://clem-pat.github.io/ReteX/
 
+<img src="/resources/architecture.png" width="200"/>
+
 <img src="/resources/logo/logoBSPP.png" alt="Image 1" width="150"/> <img src="/resources/logo/logoX.png" alt="Image 1" width="150"/>
 
 ## Authors
 
 - LTN Clément Patrizio [@Clem-Pat](https://www.github.com/Clem-Pat) (contact : clement.patrizio@outlook.fr)
+- LTN Alexis Porcel [@alexisporcel](https://www.github.com/alexisporcel)
